@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RofiatFas/Zurilandingpage/static/css/main.71122bdd.css",
+    "main.js": "/RofiatFas/Zurilandingpage/static/js/main.093bcf46.js",
+    "index.html": "/RofiatFas/Zurilandingpage/index.html",
+    "main.71122bdd.css.map": "/RofiatFas/Zurilandingpage/static/css/main.71122bdd.css.map",
+    "main.093bcf46.js.map": "/RofiatFas/Zurilandingpage/static/js/main.093bcf46.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71122bdd.css",
+    "static/js/main.093bcf46.js"
+  ]
+}
