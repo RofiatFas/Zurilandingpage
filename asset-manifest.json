@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/RofiatFas/Zurilandingpage/static/css/main.71122bdd.css",
-    "main.js": "/RofiatFas/Zurilandingpage/static/js/main.093bcf46.js",
-    "index.html": "/RofiatFas/Zurilandingpage/index.html",
-    "main.71122bdd.css.map": "/RofiatFas/Zurilandingpage/static/css/main.71122bdd.css.map",
-    "main.093bcf46.js.map": "/RofiatFas/Zurilandingpage/static/js/main.093bcf46.js.map"
+    "main.css": "/Zurilandingpage/static/css/main.71122bdd.css",
+    "main.js": "/Zurilandingpage/static/js/main.55c1731e.js",
+    "index.html": "/Zurilandingpage/index.html",
+    "main.71122bdd.css.map": "/Zurilandingpage/static/css/main.71122bdd.css.map",
+    "main.55c1731e.js.map": "/Zurilandingpage/static/js/main.55c1731e.js.map"
   },
   "entrypoints": [
     "static/css/main.71122bdd.css",
-    "static/js/main.093bcf46.js"
+    "static/js/main.55c1731e.js"
   ]
 }
