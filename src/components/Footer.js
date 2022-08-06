@@ -1,4 +1,10 @@
 import React from "react";
+import {FaFacebookSquare} from 'react-icons/fa';
+import {FaTwitter} from 'react-icons/fa';
+import {FaInstagramSquare} from 'react-icons/fa';
+import {FaLinkedin} from 'react-icons/fa';
+// import { IconContext } from "react-icons/lib";
+import { IconContext } from "react-icons";
 import {
 Box,
 Container,
@@ -10,7 +16,7 @@ Heading,
 
 const Footer = () => {
 return (
-	<Box>
+	<Box className="box">
 	<Container>
 		<Row>
         <Column>
@@ -18,45 +24,40 @@ return (
 		</Column>    
 		<Column>
 			<Heading>Links</Heading>
-			<FooterLink href="#">Store</FooterLink>
-			<FooterLink href="#">Blog</FooterLink>
+			<FooterLink href="#" className="red-text footer store-text">Store</FooterLink>
+			<FooterLink href="#" className="red-text blog-text">Blog</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Contact</Heading>
-			<FooterLink href="#" className="special-text">8 Jubliee-CMD Road, Magodo,
+			<FooterLink href="#" className="special-text footer">8 Jubliee-CMD Road, Magodo,
             Lagos State</FooterLink>
-			<FooterLink href="#">hello@zuri.team</FooterLink>
+			<FooterLink href="#" className="red-text footer hello-text">hello@zuri.team</FooterLink>
 		</Column>
 		<Column>
-			<Heading>Follows us</Heading>
-			<FooterLink href="#">
-			<i className="fab fa-facebook-f">
-				<span style={{ marginLeft: "10px" }}>
-				Facebook
-				</span>
-			</i>
+			<Heading>Follows Us</Heading>
+			<FooterLink href="#" className="footer">
+			<IconContext.Provider value={{ color: "blue", size: '20px'}} >
+			   <FaFacebookSquare/>
+			</IconContext.Provider>	
+			<IconContext.Provider value={{ color: "#1DA1F2", size: '20px' }}>
+			   <FaTwitter/>
+			</IconContext.Provider>	
+			<IconContext.Provider value={{ color: "red", size: '20px' }} >
+			   <FaInstagramSquare/>
+			</IconContext.Provider>	
+			<IconContext.Provider value={{ color: "blue", size: '20px' }}>
+			   <FaLinkedin/>
+			</IconContext.Provider>	
+			</FooterLink>
+			{/* <FooterLink href="#">
+			<FaTwitter/>
 			</FooterLink>
 			<FooterLink href="#">
-			<i className="fab fa-instagram">
-				<span style={{ marginLeft: "10px" }}>
-				Instagram
-				</span>
-			</i>
+			<FaInstagramSquare/>
 			</FooterLink>
 			<FooterLink href="#">
-			<i className="fab fa-twitter">
-				<span style={{ marginLeft: "10px" }}>
-				Twitter
-				</span>
-			</i>
-			</FooterLink>
-			<FooterLink href="#">
-			<i className="fab fa-youtube">
-				<span style={{ marginLeft: "10px" }}>
-				Youtube
-				</span>
-			</i>
-			</FooterLink>
+			<FaLinkedin/>
+			</FooterLink> */}
 		</Column>
 		</Row>
 	</Container>
@@ -67,10 +68,11 @@ return (
           borderColor: 'black',
           height: '2px',
 		  width: '25cm',
+		  paddingBottom: '-30px',
         }}
       />
 
-	<p className="text-center copy-text">© 2020 ZURI TEAM</p>  
+	<p className="text-center copy-text bottom">© 2020 ZURI TEAM</p>  
 	</Box>
 	
 );

@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Box = styled.div`
-padding: 80px 60px;
+padding: 200px 180px;
 position: absolute;
 bottom: -1000px;
 width: 100%;
-backgroud:white;
+// backgroud:white;
 
 
 @media (max-width: 1000px) {
@@ -42,22 +42,28 @@ grid-gap: 20px;
 `;
 
 export const FooterLink = styled.a`
-color: red;
-margin-bottom: 20px;
-font-size: 18px;
+// color: red;
+font-size: 15px;
 text-decoration: none;
+cursor:pointer;
+font-weight: 500;
+
 
 &:hover {
-	color: green;
-	transition: 200ms ease-in;
+	// color: green;
+	// transition: 200ms ease-in;
 }
 `;
 
 export const Heading = styled.p`
-font-size: 12px;
+font-size: 20px;
 color: black;
 margin-bottom: 40px;
-font-weight: bold;
+font-weight: 600;
 `;
+// export const IconContext = styled.fa`
+// font-size: 12px;
+// justify-content: space-;
+// `;
 
 

@@ -17,11 +17,11 @@ function Header(){
 
             <ButtonToolbar aria-label="Toolbar with button groups" className="justify-content-center buttons pt-5">
                  <ButtonGroup className="me-2" aria-label="First group">
-                 <Button variant="danger" className="border-0">I'm new to the industry</Button> 
+                 <Button  className=" btn-1">I'm new to the industry</Button> 
 
                 </ButtonGroup>
                 <ButtonGroup className="me-2" aria-label="Second group">
-                <Button variant="danger">I need industry experience</Button>
+                <Button variant="danger" className="btn-2">I need industry experience</Button>
                </ButtonGroup>
             </ButtonToolbar>   
            
