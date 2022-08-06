@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Zurilandingpage/static/css/main.71122bdd.css",
-    "main.js": "/Zurilandingpage/static/js/main.55c1731e.js",
+    "main.css": "/Zurilandingpage/static/css/main.d34a924f.css",
+    "main.js": "/Zurilandingpage/static/js/main.a2507f45.js",
     "index.html": "/Zurilandingpage/index.html",
-    "main.71122bdd.css.map": "/Zurilandingpage/static/css/main.71122bdd.css.map",
-    "main.55c1731e.js.map": "/Zurilandingpage/static/js/main.55c1731e.js.map"
+    "main.d34a924f.css.map": "/Zurilandingpage/static/css/main.d34a924f.css.map",
+    "main.a2507f45.js.map": "/Zurilandingpage/static/js/main.a2507f45.js.map"
   },
   "entrypoints": [
-    "static/css/main.71122bdd.css",
-    "static/js/main.55c1731e.js"
+    "static/css/main.d34a924f.css",
+    "static/js/main.a2507f45.js"
   ]
 }
